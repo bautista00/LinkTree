@@ -91,11 +91,11 @@ body {
 footer {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    width: 100vw;
     position: relative;
+    width: 100vw;
     color: #eae6e6;
     padding: 20px;
     border: #e3dbdb solid 2px;
     font-weight: bolder;
+    margin-top: 360px;
 }	
