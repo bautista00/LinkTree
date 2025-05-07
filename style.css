@@ -8,9 +8,9 @@
 
 body {
     background-image: url(/Img/fondo.jpg);
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
 }
 
 /*Contenido general*/
@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -51,10 +51,14 @@ body {
 
 /* Redes Sociales */
 
+.redesSociales{
+    gap:10px;
+    display: flex;
+}
 .redesSociales img{
-    width: 5rem;
-    height: 5rem;
-    object-fit: contain; 
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
     transition: transform 0.3s ease;
 }
 
@@ -63,7 +67,6 @@ body {
 }
 
 /* Botones */
-
 .btns {
     display: flex;
     flex-direction:column ;
@@ -81,21 +84,28 @@ body {
     margin: 5px 0;
     transition: background-color 0.3s ease, transform 0.3s ease;
     font-style: italic;
+    width: 20rem;
 
 }
 .btns button:hover {
     background-color: #8f8e8e;
     transform: scale(1.05);
 }
+.btns a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Footer */
 footer {
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    width: 100vw;
+    position: absolute;
+    bottom:0;
+    width: 100%;
     color: #eae6e6;
     padding: 20px;
     border: #e3dbdb solid 2px;
     font-weight: bolder;
-    margin-top: 360px;
+    background: linear-gradient(45deg, #4b0082, #8a2be2);
 }	
