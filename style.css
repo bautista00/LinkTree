@@ -102,15 +102,3 @@ body {
     text-decoration: none;
     color: inherit;
 }
-
-/* Footer */
-footer {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    color: #eae6e6;
-    padding: 20px;
-    border: rgb(94, 1, 161)  solid 2px;
-    font-weight: bolder;
-    background: linear-gradient(45deg, rgba(94, 1, 161, 0.8), rgba(138, 43, 226, 0.8));
-}	
