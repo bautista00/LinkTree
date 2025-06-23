@@ -1,0 +1,107 @@
+/*___General_________ */
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(223, 235, 246);
+
+}
+
+/*_______Navbar___________ */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(222, 184, 135);
+    padding: 30px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style-type: none;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: rgb(240, 248, 255);
+}
+
+/*_____________Main_________________ */
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+}
+/* ______Lista-Canciones____________ */
+
+.lista-canciones {
+    width: 25%;
+    padding: 15px;
+    background-color: rgb(242, 225, 203);
+
+
+}
+
+.lista-canciones h2 {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.lista-canciones ol {
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 4rem;
+}
+
+.lista-canciones a {
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.lista-canciones a:hover {
+    color: rgb(225, 16, 16);
+}
+/*________Video_____________ */
+
+.video-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 80%;
+}
+
+.video-container h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+.video-container iframe{
+    width: 60%;
+    aspect-ratio: 16/10;
+    border: none;
+}
+
+
+/*__________Footer________________- */
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    color: rgb(66, 65, 65);
+    background-color: rgb(222, 184, 135);
+    font-weight: bolder;
+}

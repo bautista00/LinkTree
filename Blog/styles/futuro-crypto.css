@@ -1,0 +1,66 @@
+/* Estilos específicos para la publicación El Futuro de las Criptomonedas */
+.post-header {
+    padding: 8rem 1rem 4rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-align: center;
+}
+
+.post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.post-meta i {
+    color: #ffffff;
+}
+
+.post-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.post-section {
+    margin-bottom: 3rem;
+}
+
+.post-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.post-section p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: #ffffff;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-button:hover {
+    color: var(--accent-color);
+} 

@@ -1,0 +1,142 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 235, 246);
+    display: flex;
+    flex-direction: column;
+}
+
+/*_______ Header ____________*/
+header h1 {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 6.5rem;
+}
+p {
+    text-align: center;
+}
+
+/*_____Navbar General_______________ */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(222, 184, 135);
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: rgb(240, 248, 255);
+}
+
+/*_______ Elecciones ____________*/
+
+.eleccion-1, .eleccion-2, .ultima-eleccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 75vh;
+}
+
+.eleccion-1 img, .eleccion-2 img, .ultima-eleccion img {
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.eleccion-1 img:hover, .eleccion-2 img:hover, .ultima-eleccion img:hover {
+    border: 2px solid rgb(5, 194, 5);
+}
+
+/*_______ Resultados ____________*/
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 85vh;
+}
+
+.resultado h1 {
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.resultado img {
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 20px auto;
+}
+
+.resultado p {
+    text-align: center;
+}
+
+.resultado p a {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+/*_______ Perdiste ____________*/
+
+.perdiste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.perdiste h1 {
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.perdiste img {
+    width: 600px;
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
+    margin: 20px auto; 
+}
+
+.perdiste p a {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+/*__________Footer________________ */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    color: rgb(66, 65, 65);
+    background-color: rgb(222, 184, 135);
+    font-weight: bolder;
+}
