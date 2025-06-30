@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones CSS - Mi Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animaciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <h1 class="logo"><a href="../index.html">Bautista Quesada</a></h1>
+                
+                <button class="mobile-menu-btn" aria-label="Menú de navegación">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="../index.html#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="../index.html#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="../index.html#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="animations-main">
+        <section class="animations-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Animaciones CSS</h1>
+                    <p class="hero-subtitle">Efectos fluidos y modernos creados con CSS puro y JavaScript interactivo</p>
+                    <div class="hero-decoration">
+                        <div class="floating-circle circle-1"></div>
+                        <div class="floating-circle circle-2"></div>
+                        <div class="floating-circle circle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animations-showcase">
+            <div class="container">
+                <div class="animations-grid">
+                    
+                    <article class="animation-card">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <i class="fas fa-magic"></i>
+                                Botón Mágico
+                            </h3>
+                            <p class="card-description">Botón interactivo con efectos de partículas</p>
+                            
+                            <div class="demo-area">
+                                <button class="magic-button" id="magicBtn">
+                                    <span class="button-text">¡Haz Clic!</span>
+                                    <div class="button-bg"></div>
+                                </button>
+                            </div>
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Partículas</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="animation-card">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <i class="fas fa-spinner"></i>
+                                Loading Fluido
+                            </h3>
+                            <p class="card-description">Loader con animación suave y colores degradados</p>
+                            
+                            <div class="demo-area">
+                                <div class="fluid-loader">
+                                    <div class="loader-circle"></div>
+                                    <div class="loader-circle"></div>
+                                    <div class="loader-circle"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">CSS Animation</span>
+                                <span class="tech-tag">Keyframes</span>
+                                <span class="tech-tag">Transform</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="animation-card">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <i class="fas fa-music"></i>
+                                Ondas de Audio
+                            </h3>
+                            <p class="card-description">Visualizador de audio con barras animadas</p>
+                            
+                            <div class="demo-area">
+                                <div class="audio-visualizer">
+                                    <div class="audio-bar"></div>
+                                    <div class="audio-bar"></div>
+                                    <div class="audio-bar"></div>
+                                    <div class="audio-bar"></div>
+                                    <div class="audio-bar"></div>
+                                    <div class="audio-bar"></div>
+                                    <div class="audio-bar"></div>
+                                    <div class="audio-bar"></div>
+                                </div>
+                                <button class="audio-toggle" id="audioToggle">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </div>
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">CSS Variables</span>
+                                <span class="tech-tag">Animation</span>
+                                <span class="tech-tag">Interactive</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="animation-card">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <i class="fas fa-paint-brush"></i>
+                                Gradiente Animado
+                            </h3>
+                            <p class="card-description">Fondo con gradiente en movimiento continuo</p>
+                            
+                            <div class="demo-area">
+                                <div class="animated-gradient">
+                                    <div class="gradient-content">
+                                        <span>Gradiente Fluido</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">Background</span>
+                                <span class="tech-tag">Gradient</span>
+                                <span class="tech-tag">Animation</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="animation-card">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <i class="fas fa-cube"></i>
+                                Tarjeta 3D
+                            </h3>
+                            <p class="card-description">Tarjeta con efecto flip 3D al hacer hover</p>
+                            
+                            <div class="demo-area">
+                                <div class="card-3d">
+                                    <div class="card-front">
+                                        <i class="fas fa-user"></i>
+                                        <h4>Frontend</h4>
+                                    </div>
+                                    <div class="card-back">
+                                        <i class="fas fa-code"></i>
+                                        <h4>Developer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">3D Transform</span>
+                                <span class="tech-tag">Perspective</span>
+                                <span class="tech-tag">Hover Effects</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="animation-card">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <i class="fas fa-shapes"></i>
+                                Formas Morphing
+                            </h3>
+                            <p class="card-description">Formas que cambian suavemente de una a otra</p>
+                            
+                            <div class="demo-area">
+                                <div class="morphing-shape">
+                                    <div class="shape"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">Clip-path</span>
+                                <span class="tech-tag">Morphing</span>
+                                <span class="tech-tag">Smooth</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="animation-card">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <i class="fas fa-snowflake"></i>
+                                Partículas Flotantes
+                            </h3>
+                            <p class="card-description">Partículas que flotan con movimiento natural</p>
+                            
+                            <div class="demo-area">
+                                <div class="floating-particles">
+                                    <div class="particle"></div>
+                                    <div class="particle"></div>
+                                    <div class="particle"></div>
+                                    <div class="particle"></div>
+                                    <div class="particle"></div>
+                                    <div class="particle"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">Physics</span>
+                                <span class="tech-tag">Float</span>
+                                <span class="tech-tag">Natural</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="animation-card">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <i class="fas fa-keyboard"></i>
+                                Efecto Typewriter
+                            </h3>
+                            <p class="card-description">Texto que se escribe automáticamente</p>
+                            
+                            <div class="demo-area">
+                                <div class="typewriter">
+                                    <span class="typewriter-text" id="typewriterText">Desarrollador Web...</span>
+                                    <span class="cursor">|</span>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Typing</span>
+                                <span class="tech-tag">Animation</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+                
+                <div class="back-to-portfolio">
+                    <a href="../index.html" class="back-btn">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>Volver al Portfolio</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Bautista Quesada. Todos los derechos reservados.</p>
+                <div class="footer-social">
+                    <span>Sígueme en:</span>
+                    <div class="social-icons">
+                        <a href="https://x.com/bauti_quesada" target="_blank" rel="noopener noreferrer" title="Twitter/X">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/bautiquesada" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/bautista-quesada" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/bautista00" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/animaciones.js"></script>
+</body>
+</html>

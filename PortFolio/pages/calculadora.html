@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Mi Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <h1 class="logo"><a href="../index.html">Bautista Quesada</a></h1>
+                
+                <button class="mobile-menu-btn" aria-label="Menú de navegación">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="../index.html#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="../index.html#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="../index.html#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="animations-main">
+        <section class="animations-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Calculadora Interactiva</h1>
+                    <p class="hero-subtitle">Una calculadora moderna y funcional desarrollada con JavaScript puro</p>
+                    <div class="hero-decoration">
+                        <div class="floating-circle circle-1"></div>
+                        <div class="floating-circle circle-2"></div>
+                        <div class="floating-circle circle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animations-showcase">
+            <div class="container">
+                <div class="calculator-container">
+                    <div class="calculator">
+                        <div class="calculator-display">
+                            <div class="previous-operand"></div>
+                            <div class="current-operand">0</div>
+                        </div>
+                        
+                        <div class="calculator-buttons">
+                            <button class="operator" data-action="clear">AC</button>
+                            <button class="operator" data-action="delete">DEL</button>
+                            <button class="operator" data-action="percent">%</button>
+                            <button class="operator" data-action="divide">÷</button>
+                            
+                            <button class="number">7</button>
+                            <button class="number">8</button>
+                            <button class="number">9</button>
+                            <button class="operator" data-action="multiply">×</button>
+                            
+                            <button class="number">4</button>
+                            <button class="number">5</button>
+                            <button class="number">6</button>
+                            <button class="operator" data-action="subtract">-</button>
+                            
+                            <button class="number">1</button>
+                            <button class="number">2</button>
+                            <button class="number">3</button>
+                            <button class="operator" data-action="add">+</button>
+                            
+                            <button class="number zero">0</button>
+                            <button class="number">.</button>
+                            <button class="operator equals" data-action="calculate">=</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="back-to-portfolio">
+                    <a href="../index.html" class="back-btn">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>Volver al Portfolio</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Bautista Quesada. Todos los derechos reservados.</p>
+                <div class="footer-social">
+                    <span>Sígueme en:</span>
+                    <div class="social-icons">
+                        <a href="https://x.com/bauti_quesada" target="_blank" rel="noopener noreferrer" title="Twitter/X">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/bautiquesada" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/bautista-quesada" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/bautista00" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/calculadora.js"></script>
+</body>
+</html> 

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Artística - Mi Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <h1 class="logo"><a href="../index.html">Bautista Quesada</a></h1>
+                
+                <button class="mobile-menu-btn" aria-label="Menú de navegación">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="../index.html#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="../index.html#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="../index.html#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="animations-main">
+        <section class="animations-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Galería Artística</h1>
+                    <p class="hero-subtitle">Donde la tecnología moderna se encuentra con el arte clásico</p>
+                    <div class="hero-decoration">
+                        <div class="floating-circle circle-1"></div>
+                        <div class="floating-circle circle-2"></div>
+                        <div class="floating-circle circle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animations-showcase">
+            <div class="container">
+                <div class="gallery-grid" role="grid" aria-label="Galería de obras artísticas">
+                    
+                    <article class="gallery-item" role="gridcell">
+                        <div class="image-container">
+                            <img src="../assets/Albert Einstein.png" 
+                                 alt="Einstein pintando un retrato de Frida Kahlo" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="artwork-info">
+                            <h3 class="artwork-title">Einstein retrata a Frida Kahlo</h3>
+                            <p class="artwork-description">El genio de la relatividad captura la esencia surrealista de la artista mexicana</p>
+                            <div class="artwork-meta">
+                                <span class="artist">Albert Einstein</span>
+                                <span class="year">• 2024</span>
+                                <span class="medium">• Óleo digital</span>
+                            </div>
+                            <div class="artwork-tags">
+                                <span class="tag">#Surrealismo</span>
+                                <span class="tag">#Física</span>
+                                <span class="tag">#Artista</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" role="gridcell">
+                        <div class="image-container">
+                            <img src="../assets/Bill Gates.png" 
+                                 alt="Bill Gates pintando un retrato de Vincent van Gogh" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="artwork-info">
+                            <h3 class="artwork-title">Gates y Van Gogh</h3>
+                            <p class="artwork-description">El visionario tecnológico interpreta las pinceladas emotivas del postimpresionismo</p>
+                            <div class="artwork-meta">
+                                <span class="artist">Bill Gates</span>
+                                <span class="year">• 2024</span>
+                                <span class="medium">• Acrílico digital</span>
+                            </div>
+                            <div class="artwork-tags">
+                                <span class="tag">#Postimpresionismo</span>
+                                <span class="tag">#Software</span>
+                                <span class="tag">#Innovación</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" role="gridcell">
+                        <div class="image-container">
+                            <img src="../assets/Elon Musk.png" 
+                                 alt="Elon Musk pintando un retrato de Leonardo da Vinci" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="artwork-info">
+                            <h3 class="artwork-title">Musk honra a Da Vinci</h3>
+                            <p class="artwork-description">El explorador espacial rinde tributo al genio renacentista universal</p>
+                            <div class="artwork-meta">
+                                <span class="artist">Elon Musk</span>
+                                <span class="year">• 2024</span>
+                                <span class="medium">• Técnica mixta</span>
+                            </div>
+                            <div class="artwork-tags">
+                                <span class="tag">#Renacimiento</span>
+                                <span class="tag">#Espacio</span>
+                                <span class="tag">#Polímata</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" role="gridcell">
+                        <div class="image-container">
+                            <img src="../assets/Jeff Bezos.png" 
+                                 alt="Jeff Bezos pintando un retrato de Pablo Picasso" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="artwork-info">
+                            <h3 class="artwork-title">Bezos explora a Dalí</h3>
+                            <p class="artwork-description">El magnate del comercio electrónico descifra las formas cubistas revolucionarias</p>
+                            <div class="artwork-meta">
+                                <span class="artist">Jeff Bezos</span>
+                                <span class="year">• 2024</span>
+                                <span class="medium">• Collage digital</span>
+                            </div>
+                            <div class="artwork-tags">
+                                <span class="tag">#Cubismo</span>
+                                <span class="tag">#Comercio</span>
+                                <span class="tag">#Revolución</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" role="gridcell">
+                        <div class="image-container">
+                            <img src="../assets/Mark Zuckerberg.png" 
+                                 alt="Mark Zuckerberg pintando un retrato de Claude Monet" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="artwork-info">
+                            <h3 class="artwork-title">Zuckerberg y Monet</h3>
+                            <p class="artwork-description">El arquitecto de las redes sociales captura los juegos de luz impresionistas</p>
+                            <div class="artwork-meta">
+                                <span class="artist">Mark Zuckerberg</span>
+                                <span class="year">• 2024</span>
+                                <span class="medium">• Acuarela digital</span>
+                            </div>
+                            <div class="artwork-tags">
+                                <span class="tag">#Impresionismo</span>
+                                <span class="tag">#Social</span>
+                                <span class="tag">#Luz</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" role="gridcell">
+                        <div class="image-container">
+                            <img src="../assets/Steve Jobs.png" 
+                                 alt="Steve Jobs pintando un retrato de Jean-Michel Basquiat" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="artwork-info">
+                            <h3 class="artwork-title">Jobs interpreta Basquiat</h3>
+                            <p class="artwork-description">El maestro del diseño conecta con la energía urbana y rebelde del street art</p>
+                            <div class="artwork-meta">
+                                <span class="artist">Steve Jobs</span>
+                                <span class="year">• 2024</span>
+                                <span class="medium">• Arte urbano digital</span>
+                            </div>
+                            <div class="artwork-tags">
+                                <span class="tag">#StreetArt</span>
+                                <span class="tag">#Diseño</span>
+                                <span class="tag">#Rebeldía</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="back-to-portfolio">
+                    <a href="../index.html" class="back-btn">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>Volver al Portfolio</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Bautista Quesada. Todos los derechos reservados.</p>
+                <div class="footer-social">
+                    <span>Sígueme en:</span>
+                    <div class="social-icons">
+                        <a href="https://x.com/bauti_quesada" target="_blank" rel="noopener noreferrer" title="Twitter/X">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/bautiquesada" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/bautista-quesada" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/bautista00" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/galeria.js"></script>
+</body>
+</html> 
